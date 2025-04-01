@@ -1,0 +1,83 @@
+<!-- Macon County website-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" text="text/css" href="css/style.css">
+    <title>Macon County</title>
+</head>
+<body>
+<!-- Div for - use organize the header content --> 
+    <div class="header">
+        <h1>Welcome to Macon County</h1>
+        <p><strong>Gem Capital</strong> Nantahala National Forest <strong>whitewater rafting</strong> Cherokee Nation</p>
+    </div>
+
+<!-- Div for top navigation to organize navigation elements -->
+    <div class="topnav">
+        <li><a href="index.html">Home</a></li>  
+		<li><a href="residents.html">Residents</a></li>
+          <li><a href="businesses.html">Businesses</a></li>
+          <li><a href="visitors.html">Visitors</a></li>
+		  <li><a href="Agencies.html">Government Agencies</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+    </div> 
+
+    <!-- Div for form elements -->
+    <div id="container">
+		<header>
+			<h1>Contact Us</h1>
+		</header>
+		<main>
+			<form>
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required>
+
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+
+				<label for="phone">Phone:</label>
+				<input type="tel" id="phone" name="phone" required>
+
+				<label for="message">Message:</label>
+				<textarea id="message" name="message"></textarea>
+
+				<label>How can we help?</label>
+				<input type="checkbox" id="interest1" name="interest1" value="interest1">
+				<label for="interest1">Emergency Services</label>
+				<input type="checkbox" id="interest2" name="interest2" value="interest2">
+				<label for="interest2">Government Agency Contact</label>
+				<input type="checkbox" id="interest3" name="interest3" value="interest3">
+				<label for="interest3">Economic Development</label>
+
+				<label>Are you a current resident?</label>
+				<input type="radio" id="customer1" name="customer" value="yes">
+				<label for="customer1">Yes</label>
+				<input type="radio" id="customer2" name="customer" value="no">
+				<label for="customer2">No</label>
+
+				<label for="dropdown">How did you hear about us?</label>
+				<select id="dropdown" name="dropdown">
+					<option value="option1">Social media</option>
+					<option value="option2">Friend/Family referral</option>
+					<option value="option3">Current resident</option>
+				</select>
+
+				<input type="submit" value="Submit">
+			</form>
+		</main>
+	</div>
+
+    <!-- Div for footer-->
+    <div class="footer">
+        <a href="https://www.maconnc.org" target="_blank">Macon County</a>
+        5 West Main Street
+        Franklin, NC 28734
+        828-349-2000
+        &copy; 2025
+        </div>
+        
+    </body>
+</html>
